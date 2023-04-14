@@ -117,3 +117,83 @@ i{
 .dot.active{
     background-color: var(--main-color);
 }
+
+/*EXPERTISE AREAS*/
+.text-image-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.text-container{
+    flex: 2 1 0;
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+
+.section-subtitle{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+.section-title{
+    color: var(--secondary-text-color);
+    font-size: 32px;
+}
+
+.btn{
+    padding: 1.2rem 1.8rem;
+    background-color: #d92123;
+    align-self: end;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--primary-text-color);
+}
+
+.image-container{
+    flex: 1 1 300px; 
+    position: relative;
+}
+
+.image-container i{
+    position: absolute;
+}
+
+#other-services{
+    width: 100%;
+    display: flex;
+    gap: 32px;
+    padding: 32px;
+}
+
+.service{
+    position: relative;
+}
+
+.service i{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 16px;
+    font-size: 1.5rem;
+}
+
+.services-info{
+    background-color: var(--tertiary-color);
+    padding: 2rem 1.4rem;
+    min-height: 250px;
+    margin-top: -3rem;
+    z-index: 2;
+    position: relative;
+}
+
+.service h4{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
